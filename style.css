@@ -1,0 +1,39 @@
+.header {
+
+  .logout-button, 
+  .welcome {
+    display: none;
+  }
+
+  &.state-logged-in {
+    .logout-button, 
+    .welcome {
+      display: block;
+    }    
+  }
+  
+}
+
+.user-authorization {
+  padding: 10px;
+  background-color: #DDD;
+
+  .login-form {
+    &.state-hidden {
+      display: none;
+    }
+  }
+
+  .login-user {
+    &.state-hidden {
+      display: none;
+    }
+  }
+
+}
+
+
+// DEMO Purposes only
+* {
+  font-family: sans-serif;
+}
